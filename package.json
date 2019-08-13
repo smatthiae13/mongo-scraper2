@@ -1,20 +1,31 @@
 {
   "name": "mongo-scraper2",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "newspaper scraping app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smatthiae13/mongo-scraper2.git"
+  },
+  "author": "Samantha Matthiae",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smatthiae13/mongo-scraper2/issues"
+  },
+  "homepage": "https://github.com/smatthiae13/mongo-scraper2#readme",
   "dependencies": {
     "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.3",
     "exphbs": "^1.2.0",
+    "express": "^4.17.1",
     "logger": "0.0.1",
     "mongoose": "^5.6.9",
+    "morgan": "^1.9.1",
     "request": "^2.88.0"
   }
 }
